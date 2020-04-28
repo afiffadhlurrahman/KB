@@ -1,0 +1,40 @@
+@relation worker
+
+@attribute skill {Beginner,Intermediate,Expert}
+@attribute gender {Male,Female}
+@attribute experience {Freshman,Experienced}
+@attribute iq {Below_Average,Average,High_Average,Superior,Gifted}
+@attribute hired {Yes,No}
+
+@data
+Intermediate	Male	Freshman	Average			?
+Beginner		Female	Experienced	Average			?
+Intermediate	Female	Freshman	Superior		?
+Intermediate	Male	Experienced	Below_Average	?
+Beginner		Female	Freshman	Gifted			?
+Expert			Male	Experienced	High_Average	?
+Intermediate	Male	Experienced	High_Average	?
+Beginner		Female	Freshman	Below_Average	?
+Beginner		Female	Experienced	Average			?
+Expert			Male	Experienced	Superior		?
+Expert			Male	Freshman	Average			?
+Intermediate	Female	Experienced	Below_Average	?
+Intermediate	Male	Freshman	High_Average	?
+Intermediate	Male	Freshman	Gifted			?
+Intermediate	Female	Freshman	Below_Average	?
+Beginner		Male	Freshman	High_Average	?
+Expert			Male	Freshman	Gifted			?
+Intermediate	Female	Freshman	Average			?
+Intermediate	Female	Experienced	Gifted			?
+Expert			Male	Freshman	Below_Average	?
+Intermediate	Male	Experienced	Average			?
+Expert			Male	Experienced	Superior		?
+Beginner		Female	Experienced	Average			?
+Intermediate	Female	Freshman	Average			?
+Intermediate	Female	Freshman	Average			?
+Intermediate	Male	Freshman	Gifted			?
+Expert			Male	Experienced	High_Average	?
+Intermediate	Male	Freshman	Superior		?
+Beginner		Female	Freshman	High_Average	?
+Beginner		Male	Experienced	Superior		?
+Expert			Male	Freshman	Gifted			?

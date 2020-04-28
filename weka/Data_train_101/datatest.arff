@@ -1,0 +1,40 @@
+@relation worker
+
+@attribute skill numeric
+@attribute gender {Male,Female}
+@attribute experience numeric
+@attribute iq numeric
+@attribute hired {Yes,No}
+
+@data
+86	Female	4	108
+44	Male	1	100
+66	Female	3	145
+87	Male	4	103
+57	Male	3	120
+37	Male	4	75
+20	Male	2	89
+27	Male	2	135
+68	Male	2	111
+26	Female	1	96
+22	Female	1	72
+99	Female	1	145
+86	Female	1	113
+35	Male	2	130
+26	Female	2	111
+55	Female	3	81
+25	Female	2	78
+33	Male	4	70
+84	Male	4	128
+30	Male	4	73
+69	Female	1	127
+82	Female	3	149
+46	Female	2	77
+20	Female	1	103
+27	Male	4	121
+31	Male	1	90
+74	Female	3	71
+88	Male	3	93
+77	Female	3	138
+37	Male	3	85
+51	Female	1	111

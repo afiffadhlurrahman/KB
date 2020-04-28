@@ -1,0 +1,110 @@
+@relation worker
+
+@attribute skill numeric
+@attribute gender {Male,Female}
+@attribute experience numeric
+@attribute iq numeric
+@attribute hired {Yes,No}
+
+@data
+High	Female	Advance     Gifted	Yes
+Medium	Male	Beginner	Gifted	Yes
+Medium	Male	Beginner	Gifted	No
+Medium	Male	Beginner	Superior	Yes
+Low	    Male	Advance	Superior	No
+Low	    Male	Advance	Low average	No
+Low	    Female	Advance	High average	No
+High	Male	Beginner	Low average	No
+Medium	Female	Beginner	Gifted	Yes
+Low	    Female	Advance	Good	No
+Low	    Female	Beginner	Low average	No
+High	Male	Beginner	Low average	No
+Medium	Female	Beginner	High average	Yes
+Medium	Female	Beginner	Gifted	Yes
+Low	    Female	Beginner	Gifted	No
+Medium	Female	Beginner	Low average	No
+Medium	Male	Beginner	Low average	No
+Medium	Female	Advance	Good	Yes
+Low	    Male	Beginner	Good	No
+Medium	Female	Advance	Low average	No
+Low	    Female	Beginner	Good	No
+High	Female	Beginner	Superior	Yes
+High	Female	Beginner	Good	Yes
+High	Female	Beginner	Superior	Yes
+Medium	Female	Advance	Gifted	Yes
+High	Female	Beginner	High average	Yes
+Medium	Male	Advance	Good	Yes
+Low	    Male	Advance	Good	No
+Low	    Female	Beginner	Gifted	No
+Low	    Male	Advance	Superior	No
+Medium	Male	Advance	Good	No
+Low	    Male	Beginner	Superior	No
+Low	    Female	Advance	Gifted	Yes
+Medium	Male	Beginner	Good	Yes
+Medium	Male	Advance	Low average	No
+Low	    Male	Beginner	Gifted 	No
+Low	    Female	Beginner	Good	No
+Low	    Female	Advance	Low average	No
+Low	    Female	Beginner	Good	No
+Low	    Female	Beginner	Good	No
+Medium	Female	Advance	Superior	Yes
+Medium	Male	Advance	Gifted 	Yes
+Low	    Male	Advance	Gifted 	Yes
+High	Male	Beginner	Gifted 	Yes
+Medium	Female	Advance	High average	Yes
+High	Female	Advance	Good	Yes
+Low	    Female	Beginner	Low average	No
+Low	    Female	Beginner	High average	No
+Low	    Female	Beginner	Low average	No
+Low	    Male	Beginner	Low average	No
+High	Female	Advance	Low average	No
+Low	    Female	Beginner	Low average	No
+Low	    Male	Advance	Gifted	No
+Low	    Female	Advance	Gifted	Yes
+Low	    Female	Advance	Superior	No
+Low	    Female	Advance	Low average	No
+Low	    Male	Beginner	Superior	No
+Low	    Male	Advance	Low average	No
+Low	    Male	Beginner	Good	No
+Low	    Female	Advance	Superior	Yes
+Medium	Female	Advance	Low average	No
+High	Male	Beginner	Gifted 	Yes
+High	Female	Advance	Good	Yes
+Medium	Male	Advance	Superior	Yes
+Low	    Female	Advance	Good	Yes
+Medium	Male	Advance	Gifted	Yes
+Medium	Male	Beginner	Good	No
+Low	    Female	Advance	Superior	Yes
+Medium	Male	Beginner	Good	No
+Low	    Male	Advance	Low average	No
+High	Male	Advance	Gifted	Yes
+Medium	Female	Advance	Low average	No
+Low	    Female	Beginner	Good	No
+Medium	Female	Advance	Superior	Yes
+Medium	Male	Advance	Gifted	Yes
+Medium	Female	Advance	Good	Yes
+Medium	Male	Advance	Low average	No
+High	Male	Beginner	High average	Yes
+Low	    Male	Beginner	Low average	No
+High	Female	Advance	Good	Yes
+Low	    Female	Advance	Gifted	No
+Medium	Female	Advance	Gifted	Yes
+High	Female	Beginner	Low average	No
+High	Male	Advance	High average	Yes
+Medium	Female	Beginner	Good	No
+High	Male	Advance	Low average	No
+Medium	Male	Advance	Gifted	Yes
+High	Female	Beginner	Gifted	Yes
+Medium	Male	Beginner	Low average	No
+Medium	Male	Advance	Good	No
+High	Male	Advance	Gifted	Yes
+High	Male	Beginner	Superior	Yes
+Low	    Male	Advance	Good	No
+Low	    Female	Beginner	Superior	No
+Low	    Male	Beginner	Good	No
+Low	    Male	Beginner	Gifted	No
+Medium	Female	Beginner	Gifted	Yes
+Medium	Male	Advance	High average	Yes
+Medium	Female	Beginner	Gifted	Yes
+High	Male	Beginner	Gifted	Yes
+Medium	Female	Advance	Gifted	Yes
